@@ -371,6 +371,12 @@ nav {
   line-height:1.4;
   text-decoration:none !important;
 }
+.info-page a.download-link,
+.info-page a.download-link:visited,
+.info-page a.download-link:hover,
+.info-page a.download-link:focus-visible {
+  color:#fff;
+}
 .download-link:hover { background:#1e617e; }
 .download-link:focus-visible { outline-offset:4px; }
 .app .download-link { display:inline-block; }
