@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="#ffffff" name="theme-color"/>
+<meta content="How to organize, cull, rename and edit XMP photo metadata with LPF Organizer." name="description"/>
+<title>LPF Organizer User Guide — Les Petites Fugues</title>
+<link href="assets/favicon.png" rel="icon" type="image/png"/>
+<link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="site-header">
+<a class="brand" href="index.html">
+<span>
+     LPF.one
+    </span>
+</a>
+<nav aria-label="Main navigation">
+<a href="index.html">
+     Home
+    </a>
+<a aria-current="page" href="organizer.html">
+     LPF Organizer
+    </a>
+<a href="explorer.html">
+     LPF Explorer
+    </a>
+<a href="about.html">
+     About LPF.one
+    </a>
+<a href="support.html">
+     Support
+    </a>
+</nav>
+</header>
+<main><section class="info-page guide-page"><p class="guide-eyebrow">LPF Organizer · Version 1.0.0</p><h1>User Guide</h1><p class="lead">Your photographs. Your workflow. Use only the tools you need.</p><p>LPF Organizer works directly with your photographs and folders. Start by choosing images or a folder, then decide whether to organize them immediately or use any of the optional culling, renaming and metadata tools.</p><nav aria-label="On this page" class="guide-toc"><a href="#quick-start">Quick start</a><a href="#organize">Organize</a><a href="#cull">Cull</a><a href="#rename">Rename</a><a href="#metadata">Metadata</a><a href="#files">Files &amp; XMP</a><a href="#example">Example workflow</a></nav>
+<h2 id="quick-start">1. Quick start: just copy or move</h2><ol><li>Open LPF Organizer and select photographs or a source folder.</li><li>Choose a destination folder and the folder structure you prefer.</li><li>Choose <strong>Copy</strong> or <strong>Move</strong>.</li><li>Leave <strong>Rename using template</strong> unchecked if you want to keep existing filenames.</li><li>Leave <strong>Use Cull selections</strong> unchecked if you want to process the photos without culling.</li><li>Keep <strong>Dry Run</strong> enabled to inspect the preview, then disable it when you are ready to carry out the operation.</li><li>Choose <strong>Organize Photos</strong>.</li></ol><p>That's it. You don't have to rate, rename or describe a single photo unless you want to.</p>
+<h2 id="organize">2. Organize: files and folders</h2><figure class="guide-figure"><a href="assets/guide-organize.jpg" rel="noopener" target="_blank"><img alt="LPF Organizer Organize workspace screenshot" loading="lazy" src="assets/guide-organize.jpg"/></a><figcaption>Organize workspace, showing folder choices, filename tokens and a Dry Run preview · Select the image to enlarge.</figcaption></figure><p>Choose your source photographs or folder, and a destination. Use the folder-structure controls to choose how destination folders are created; the example above uses year and date. The preview shows the planned destinations and any skipped items.</p><p><strong>Copy</strong> preserves the originals at the source. <strong>Move</strong> relocates them. <strong>Dry Run</strong> lets you inspect the plan before changing files. Review the preview carefully, especially when moving or renaming photographs.</p><p>LPF Organizer includes duplicate handling and operation history. Use the available history/undo controls when you need to review or reverse a supported operation.</p>
+<h2 id="cull">3. Cull: choose what matters</h2><figure class="guide-figure"><a href="assets/guide-cull.jpg" rel="noopener" target="_blank"><img alt="LPF Organizer Cull workspace screenshot" loading="lazy" src="assets/guide-cull.jpg"/></a><figcaption>Cull workspace, with colour-coded Keep, Maybe and Reject decisions · Select the image to enlarge.</figcaption></figure><p>Culling is optional. Mark photographs <strong>Keep</strong>, <strong>Maybe</strong> or <strong>Reject</strong>; use the filter bar to focus on a group. You can also assign star ratings and adjust thumbnail size. The interface includes a comparison selector for looking more closely at images.</p><p>When you want the organization step to respect your culling decisions, enable <strong>Use Cull selections</strong> in Organize. When you want to process all eligible photos regardless of culling, leave it off. Marking a photo Reject is a selection decision; it is not, by itself, an instruction to delete the original file.</p>
+<h2 id="rename">4. Rename: only if you choose</h2><p>In Organize, enable <strong>Rename using template</strong> to construct filenames from configurable tokens such as date, description and sequence. A preview shows the resulting names before you run the operation. Leave the option off to retain the original filenames.</p><p>Filename templates and folder structure are separate choices: you can organize photographs into folders without renaming them.</p>
+<h2 id="metadata">5. Metadata: describe your photographs</h2><figure class="guide-figure"><a href="assets/guide-metadata.jpg" rel="noopener" target="_blank"><img alt="LPF Organizer Metadata workspace screenshot" loading="lazy" src="assets/guide-metadata.jpg"/></a><figcaption>Metadata workspace, with photo filters and editable XMP fields · Select the image to enlarge.</figcaption></figure><p>Select one or several photographs to edit descriptive information. Available fields include <strong>Title, Description, Keywords, Location, Creator, Copyright</strong> and <strong>Rating</strong>. The photo grid offers filters for culling decisions and star ratings, making it easier to work on a useful subset.</p><p>Metadata changes are committed with <strong>Apply</strong>; use <strong>Discard</strong> to abandon pending edits. Some fields provide recent-value history to speed up repetitive work. When editing several photographs, check which fields you intend to apply to the selection before committing.</p><p>You can use the Metadata workspace independently of copying, moving or renaming files.</p>
+<h2 id="files">6. RAW, JPEG and XMP</h2><p>LPF Organizer can treat associated RAW and JPEG files as a single logical photograph. It uses XMP sidecar files for descriptive metadata rather than modifying the image pixels. Sidecars are ordinary files that can accompany photographs in a folder-based workflow.</p><p>LPF Organizer is <strong>not</strong> a RAW developer or photo editor. Use your preferred editing software for exposure, colour and other image adjustments. As with any multi-application workflow, check how your editor handles and updates XMP sidecars.</p><p>For important collections, keep a backup before bulk file operations.</p>
+<h2 id="example">7. Example: a complete workflow</h2><ol><li>Select a folder of photographs.</li><li>Optionally open Cull to mark your favourites and add star ratings.</li><li>Optionally add titles, keywords or location information in Metadata.</li><li>Return to Organize and select the destination and folder structure.</li><li>Optionally enable filename renaming and Cull selections.</li><li>Review the Dry Run preview, then carry out Copy or Move when satisfied.</li></ol><p>Or skip steps 2, 3 and 5. The point is that you decide.</p><p class="guide-bottom-links"><a href="organizer-faq.html">Read the FAQ →</a> <a href="organizer.html">Back to LPF Organizer →</a></p></section></main>
+<footer class="footer">
+   Les Petites Fugues · Simple tools for the Mac
+  </footer>
+</body>
+</html>
