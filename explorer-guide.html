@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="#ffffff" name="theme-color"/>
+<meta content="LPF Explorer manual: archive browsing, search, filters, collections and shortcuts." name="description"/>
+<title>LPF Explorer User Guide — Les Petites Fugues</title>
+<link href="assets/favicon.png" rel="icon" type="image/png"/>
+<link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="site-header">
+<a class="brand" href="index.html">
+<span>
+     LPF.one
+    </span>
+</a>
+<nav aria-label="Main navigation">
+<a href="index.html">
+     Home
+    </a>
+<a href="organizer.html">
+     LPF Organizer
+    </a>
+<a aria-current="page" href="explorer.html">
+     LPF Explorer
+    </a>
+<a href="about.html">
+     About LPF.one
+    </a>
+<a href="support.html">
+     Support
+    </a>
+</nav>
+</header>
+<main><section class="info-page guide-page"><p class="guide-eyebrow">LPF Explorer · Version 1.0.0</p><h1>User Guide</h1><p class="lead">Find what you need. Keep what you own.</p><nav aria-label="On this page" class="guide-toc"><a href="#what-lpf-explorer-is-for">What LPF Explorer is for</a><a href="#the-archive-belongs-to-you">The archive belongs to you</a><a href="#the-three-ways-to-find-photographs">The three ways to find photographs</a><a href="#browsing-the-archive">Browsing the archive</a><a href="#searching-and-filtering">Searching and filtering</a><a href="#smart-collections-searches-you-can-return-to">Smart collections: searches you can return to</a><a href="#manual-collections-selections-you-curate">Manual collections: selections you curate</a><a href="#keeping-many-collections-organized">Keeping many collections organized</a><a href="#selecting-inspecting-and-opening-photographs">Selecting, inspecting and opening photographs</a><a href="#explorer-and-organizer-complementary-roles">Explorer and Organizer: complementary roles</a><a href="#synchronization-caches-and-unavailable-files">Synchronization, caches and unavailable files</a><a href="#a-few-practical-examples">A few practical examples</a><a href="#keyboard-reference">Keyboard reference</a><a href="#design-principles-and-support">Design principles and support</a></nav>
+<h2 id="what-lpf-explorer-is-for">1. What LPF Explorer is for</h2>
+<p>LPF Explorer helps you <strong>find, browse, select and reuse photographs</strong> in an existing folder-based archive. It is the companion to LPF Organizer, which handles organizing, culling and descriptive metadata editing. Explorer is intentionally a lightweight retrieval tool rather than a second photo editor or a catalogue that owns your photographs.</p>
+<p>A typical workflow is: import and organize photographs with LPF Organizer; add useful XMP metadata; keep the photographs in ordinary folders; later use LPF Explorer to find them by content, date, rating or Finder tag; assemble a selection; then open the photographs in your preferred editor or return to Organizer when metadata needs correcting.</p>
+<h2 id="the-archive-belongs-to-you">2. The archive belongs to you</h2>
+<p>Explorer works with the folders and files already on your disk or NAS. There is <strong>no import into a proprietary library</strong>, no cloud account and no requirement to move photographs into Explorer's own storage. The archive is the source of truth. Explorer maintains a disposable local index for speed, not a replacement for your files or a backup.</p>
+<p>The intended main archive layout is a folder such as <code>PhotoStore</code>, with year folders and date folders below them (for example <code>PhotoStore/2024/2024-04-27</code>). Explorer does not require this naming convention to browse photographs. Temporary working copies on a notebook SSD can be kept outside the main archive.</p>
+<p><strong>First start:</strong> choose the archive with <strong>Choose Archive…</strong> (Command–O). Explorer scans its contents and builds the local index. Later launches can reuse cached metadata and synchronize changes. If you change the archive root, the displayed folder hierarchy and archive-associated collections follow that archive.</p>
+<h2 id="the-three-ways-to-find-photographs">3. The three ways to find photographs</h2>
+<p>The sidebar offers three complementary approaches. They serve different purposes, so you need not use all of them.</p>
+<ul>
+<li><strong>Archive folders:</strong> Browse by where photographs live. Selecting a folder includes photographs in its subfolders. Choose Entire Archive to work across the complete archive.</li>
+<li><strong>Smart collections:</strong> Save a <em>question</em> you want to ask repeatedly: for example, photographs from a trip, rated at least four stars, or marked with a particular Finder tag. The result changes as metadata and files change.</li>
+<li><strong>Manual collections:</strong> Save a <em>selection</em> of particular photographs, even when those photographs come from different years or folders. Membership is chosen by you rather than by search rules.</li>
+</ul>
+<p>The distinction is important: a folder is a filesystem location, a smart collection is a saved search, and a manual collection is a saved set of photo references. Creating either kind of collection does <strong>not</strong> move or duplicate the underlying photographs.</p>
+<h2 id="browsing-the-archive">4. Browsing the archive</h2>
+<p>Expand the Archive section in the sidebar to navigate the folder tree. Select a year or date folder to see photographs recursively beneath it. A folder without children does not need an expansion triangle. The grid displays the matching photographs; adjust thumbnail size to balance overview and detail. Explorer remembers your grid zoom setting.</p>
+<p>Select <strong>Entire Archive</strong> when you want to search beyond the currently selected folder. The selected scope is indicated in the sidebar. A search can also be restricted to a folder, including all its subfolders, and that scope can be saved as part of a smart collection.</p>
+<h2 id="searching-and-filtering">5. Searching and filtering</h2>
+<p>Use the free-text search field for words appearing in filenames, titles, descriptions, keywords and location metadata. Multiple search terms narrow the result. Good descriptive metadata written earlier in Organizer makes these searches much more useful.</p>
+<p>Filters can be combined:</p>
+<ul>
+<li><strong>Rating:</strong> Set a minimum star rating (for example, four stars or higher). This is a threshold, not an exact rating.</li>
+<li><strong>Finder tag:</strong> Restrict results to one tag, or to untagged photographs. Finder tags can express a workflow state such as working, finished, used or needing attention; they are not substitutes for descriptive XMP keywords.</li>
+<li><strong>Capture date:</strong> Choose any date, a fixed year, the current year, or a date range. Ranges can use fixed boundaries or a relative boundary such as Today. A saved relative date remains relative when you open the collection later.</li>
+<li><strong>Sort:</strong> Filename A–Z or Z–A, capture date newest or oldest, and rating highest or lowest. Manual collections also offer their own collection order.</li>
+</ul>
+<p>The filters act together. For example, a search for <code>landscape</code> with a minimum rating of four stars and a specific year returns only photographs satisfying all three conditions. Clearing filters returns to an unfiltered view of the current scope.</p>
+<h2 id="smart-collections-searches-you-can-return-to">6. Smart collections: searches you can return to</h2>
+<p>Smart collections are useful for recurring questions, not just one-time searches. First select the archive or folder scope, enter text and filters, and save the current criteria as a smart collection. Give it a meaningful name such as <code>Tour de Romandie 2017</code> or <code>Finished landscapes</code>.</p>
+<p>When you select a smart collection, its <strong>saved search text, rating, Finder tag and capture-date criteria appear in the toolbar</strong>. Its saved scope appears in the compact row beneath the filters. These controls show what the collection means, rather than leaving you to guess from its name.</p>
+<p><strong>Editing a smart collection:</strong> Changing a filter or the scope while that smart collection is selected updates the saved definition. This is intentional. If you want a different search without changing the saved collection, first select a regular archive folder or Entire Archive. The Clear Filters command also clears the selected smart collection's saved filters when a smart collection is active.</p>
+<p>Smart collections do not store copies of photographs. If new photographs satisfy the criteria after synchronization, they appear in the results; if metadata changes so a photograph no longer matches, it disappears from that smart collection.</p>
+<h2 id="manual-collections-selections-you-curate">7. Manual collections: selections you curate</h2>
+<p>Use a manual collection when the choice of photographs matters more than a repeatable search rule: a shortlist for an exhibition, a set for a family album, or images gathered for a presentation. Create a manual collection, select photographs in the grid and add them through the available collection action or drag-and-drop.</p>
+<p>A photograph may belong to multiple manual collections. Manual collections reference the photographs in the archive; they do not create new files. When appropriate, choose <strong>Collection order</strong> to use the manual ordering rather than sorting by date, filename or rating.</p>
+<p>For example, you might create <code>Portfolio candidates</code>, add images found in several smart searches, and then use that manual collection to review the final selection.</p>
+<h2 id="keeping-many-collections-organized">8. Keeping many collections organized</h2>
+<p>Groups are optional and deliberately limited to <strong>one level</strong>. Manual Collections and Smart Collections each have their own groups; a group cannot contain the other type of collection. Ungrouped collections remain directly visible under their section.</p>
+<p>Use the folder-plus control in the appropriate sidebar section to create a group. Move collections into or out of groups by dragging them or using <strong>Move to Group</strong> in the context menu. Groups can be renamed, expanded and collapsed. Group membership and expanded state persist between launches.</p>
+<p>Deleting a group <strong>does not delete its collections</strong>: they return to the ungrouped level. Groups are purely for navigation; they do not affect the collection's search criteria, membership or photographs. For example, groups named <code>By Year</code>, <code>Trips</code> and <code>Projects</code> can make a long smart-collection list easier to navigate.</p>
+<h2 id="selecting-inspecting-and-opening-photographs">9. Selecting, inspecting and opening photographs</h2>
+<p>The thumbnail grid is designed for fast keyboard navigation. Use the arrow keys, Page Up/Down and Home/End to move through results. Hold Shift while navigating to extend a selection, use Command–A to select all displayed photographs, and Space to open Quick Look.</p>
+<p>The optional right-hand information panel displays read-only metadata, including description, capture information and file details. It helps answer <em>what is this photograph?</em> without turning Explorer into another metadata editor. With multiple photographs selected, the panel emphasizes the selection count rather than trying to merge their metadata.</p>
+<p>Use the context menu to reveal files in Finder, open them with an application, or send photographs to LPF Organizer for descriptive metadata editing. RAW and JPEG variants can be associated as a photograph pair; the files remain available to external editors.</p>
+<h2 id="explorer-and-organizer-complementary-roles">10. Explorer and Organizer: complementary roles</h2>
+<p><strong>LPF Organizer</strong> is for preparing the archive: organizing files, culling, assigning ratings and writing descriptive XMP metadata such as title, description, keywords and location. <strong>LPF Explorer</strong> is for retrieving and using the result of that work. Explorer keeps descriptive metadata read-only, avoiding two competing editors for the same fields.</p>
+<p>Consider a practical sequence:</p>
+<ul>
+<li>After a trip, organize the files into the archive with Organizer, cull the rejects and describe the useful photographs.</li>
+<li>Weeks or years later, search Explorer for the place, date or subject, then narrow by rating or Finder tag.</li>
+<li>Save that query as a smart collection if it will be useful again; make a manual collection if you need to curate a particular set of images.</li>
+<li>Open selected photographs in an external editor, or choose <strong>Edit Metadata in LPF Organizer</strong> when descriptions or keywords need improvement.</li>
+</ul>
+<p>The benefit comes from <strong>ordinary files plus portable metadata</strong>. Your photographs remain accessible in Finder and other applications even if you stop using either LPF application.</p>
+<h2 id="synchronization-caches-and-unavailable-files">11. Synchronization, caches and unavailable files</h2>
+<p>Explorer indexes file metadata to make searching responsive. It monitors filesystem changes and supports <strong>Synchronize Archive</strong> (Command–R). After a metadata edit or external file operation, synchronization updates the index so searches reflect the archive.</p>
+<p>The local index and thumbnail caches are disposable performance aids, not authoritative databases. They should not be treated as a backup. If the archive is temporarily offline, cached metadata may still be visible, but opening an unavailable original file requires reconnecting the archive. Reconnect and synchronize when the storage becomes available again.</p>
+<p>If a file has been renamed, moved or deleted outside Explorer, an existing collection reference may no longer resolve to the original photograph. Keep the archive structure reasonably stable and use synchronization after major reorganizations. Collections are not a substitute for filesystem backups.</p>
+<h2 id="a-few-practical-examples">12. A few practical examples</h2>
+<h3>Find the best photographs from a particular trip</h3>
+<p>Select Entire Archive, enter the trip name or location in the search field, limit the capture dates to the trip, and set a minimum rating. Save the result as a smart collection if you expect to revisit it.</p>
+<h3>Maintain a changing set of finished photographs</h3>
+<p>Filter by the Finder tag you use for finished work, optionally require a minimum rating, and save as a smart collection. As you update tags or ratings in your normal workflow, the saved search reflects the new state after synchronization.</p>
+<h3>Assemble photographs for a presentation</h3>
+<p>Search across folders and years, select suitable photographs and add them to a manual collection. Repeat with other searches. The manual collection is the curated selection; it need not correspond to any single search or folder.</p>
+<h3>Keep dozens of saved searches navigable</h3>
+<p>Create smart-collection groups such as <code>Trips</code>, <code>People</code>, <code>By Year</code> or <code>By Rating</code>. Move existing collections into groups without changing their saved definitions. Collapse groups you are not currently using.</p>
+<h2 id="keyboard-reference">13. Keyboard reference</h2>
+<table>
+<thead>
+<tr>
+<th>Action</th>
+<th>Shortcut</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Choose archive</td>
+<td>Command–O</td>
+</tr>
+<tr>
+<td>Synchronize archive</td>
+<td>Command–R</td>
+</tr>
+<tr>
+<td>Move through grid</td>
+<td>Arrow keys</td>
+</tr>
+<tr>
+<td>Move by page</td>
+<td>Page Up / Page Down</td>
+</tr>
+<tr>
+<td>First or last photograph</td>
+<td>Home / End</td>
+</tr>
+<tr>
+<td>Extend selection</td>
+<td>Shift + navigation</td>
+</tr>
+<tr>
+<td>Select all displayed photographs</td>
+<td>Command–A</td>
+</tr>
+<tr>
+<td>Quick Look</td>
+<td>Space</td>
+</tr>
+</tbody>
+</table>
+<p>Keyboard movement follows the current filtered and sorted order.</p>
+<h2 id="design-principles-and-support">14. Design principles and support</h2>
+<p>LPF Explorer is deliberately <strong>small, focused and efficient</strong>. It does not require a cloud service, a proprietary catalogue, an account or a subscription. Its goal is to help you find and use photographs without taking ownership of your archive. New features are considered only when they support that goal without unnecessary overhead.</p>
+<p>LPF Explorer is free to use. If you find it useful, the About and Support windows contain an optional Ko-fi link. Donations are appreciated but never required, and no donation reminder interrupts normal work.</p>
+<p class="guide-bottom-links"><a href="explorer-faq.html">Read the FAQ →</a> <a href="explorer.html">Back to LPF Explorer →</a></p></section></main>
+<footer class="footer">
+   Les Petites Fugues · Simple tools for the Mac
+  </footer>
+</body>
+</html>
