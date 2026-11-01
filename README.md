@@ -28,3 +28,24 @@ For questions, feedback and support, please visit [lpf.one](https://www.lpf.one)
 ---
 
 *Small apps. Your files. No cloud required.*
+
+## Publishing new application versions
+
+Current version numbers, download links and (for Explorer) the minimum
+Organizer version needed for handoff come from:
+
+- `updates/organizer.json`
+- `updates/explorer.json`
+
+The same JSON files are used by the applications for update checks.
+`release-info.js` loads them on the website and fills in the version labels,
+product download buttons, and ZIP filenames automatically.
+
+For the next release, publish the new ZIP to the appropriate GitHub Releases
+repository, then change the `version`, `downloadURL` (if necessary), and
+`releaseNotes` in the corresponding JSON file. ZIP assets are named
+`LPFOrganizer-<version>.zip` and `LPFExplorer-<version>.zip`.
+
+If a JSON request fails, the pages still show readable, version-neutral
+text and retain their existing GitHub download URLs. To test the automatic
+labels, serve the site over HTTP(S), not directly from `file://`.
