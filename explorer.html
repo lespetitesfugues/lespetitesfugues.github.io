@@ -5,7 +5,7 @@
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
 <meta content="#ffffff" name="theme-color"/>
-<meta content="Les Petites Fugues — thoughtfully designed Mac utilities for managing your photographs." name="description"/>
+<meta content="LPF Explorer 1.5.0 for Mac: browse photo archives, search XMP metadata and find photographs using private on-device Visual Search." name="description"/>
 <title>
    LPF Explorer — Les Petites Fugues
   </title>
@@ -38,7 +38,38 @@
 </nav>
 </header>
 <main>
-<section class="detail"><img alt="LPF Explorer icon" src="assets/explorer.png"/><h1>LPF Explorer</h1><div class="status"><span data-lpf-version-label="explorer">Latest version</span> · Available now</div><p>Find and explore your photographs without importing them into a catalogue. Browse existing folders, search XMP metadata and build collections — all locally.</p><a class="download-link" data-lpf-download="explorer" href="https://github.com/lespetitesfugues/LPF-Explorer/releases/latest">Download LPF Explorer<span data-lpf-version="explorer"></span></a><p class="download-meta">Free · macOS 14 Sonoma or later</p><p class="release-link"><a data-lpf-download="explorer" href="https://github.com/lespetitesfugues/LPF-Explorer/releases/latest">Release notes and downloads on GitHub →</a></p><div class="organizer-doc-links"><a href="explorer-guide.html">Read the User Guide →</a><a href="explorer-faq.html">Questions? Read the FAQ →</a></div><div class="organizer-features"><p><strong>Browse</strong> — Explore folders and subfolders in your existing photo archive.</p><p><strong>Search</strong> — Find photographs using filenames, XMP titles, descriptions, keywords and locations.</p><p><strong>Filter</strong> — Narrow results by rating, date, Finder workflow tags and RAW/JPEG availability.</p><p><strong>Collections</strong> — Create manual collections and smart collections for recurring searches.</p><p><strong>Organizer handoff</strong> — Open selected photographs in LPF Organizer for metadata editing.</p></div><div class="installation" id="installation"><h2>Installation</h2><ol><li>Download <strong data-lpf-zip="explorer">the latest ZIP file</strong> from GitHub Releases.</li><li>Double-click the ZIP file to extract the application.</li><li>Move <strong>LPF Explorer.app</strong> to the <strong>Applications</strong> folder.</li><li>Open LPF Explorer from Applications.</li></ol><p>LPF Explorer works independently. <span data-lpf-handoff="explorer">LPF Organizer is needed only for the handoff feature.</span></p><p><strong>LPF Explorer is signed with an Apple Developer ID certificate and notarized by Apple.</strong> On first launch, macOS may show its normal confirmation that the app was downloaded from the internet. You can open it normally; no security workaround is required.</p></div><a class="back" href="index.html">← Back to homepage</a></section>
+<section class="detail">
+<img alt="LPF Explorer icon" src="assets/explorer.png"/>
+<h1>LPF Explorer</h1>
+<div class="status"><span data-lpf-version-label="explorer">Latest version</span> · Available now</div>
+<p>Find the photographs you remember, even when you cannot remember their filenames. Browse your existing archives, search XMP metadata or describe a scene with the new Visual Search — without moving your photographs into another catalogue.</p>
+<a class="download-link" data-lpf-download="explorer" href="https://github.com/lespetitesfugues/LPF-Explorer/releases/latest">Download LPF Explorer<span data-lpf-version="explorer"></span></a>
+<p class="download-meta">Free · macOS 14 Sonoma or later · Developer ID notarized</p>
+<p class="release-link"><a data-lpf-download="explorer" href="https://github.com/lespetitesfugues/LPF-Explorer/releases/latest">Release notes and downloads on GitHub →</a></p>
+<div class="organizer-doc-links"><a href="explorer-guide.html">Read the User Guide →</a><a href="explorer-faq.html">Questions? Read the FAQ →</a></div>
+<div class="organizer-features">
+<p><strong>Browse your archives</strong> — Switch between photo archives, folders and collections, including archives on external drives. Your folders remain ordinary folders.</p>
+<p><strong>Metadata Search</strong> — Search filenames, XMP titles, descriptions, keywords and locations; narrow results by rating, date, Finder tags and EXIF information.</p>
+<p><strong>Visual Search</strong> — Describe what a photograph looks like. The optional SigLIP 2 model analyses images and search descriptions locally on your Mac.</p>
+<p><strong>Automatic indexing</strong> — Visual indexes update incrementally as photographs are added or changed, while you continue browsing.</p>
+<p><strong>Collections</strong> — Curate photographs in manual collections or save recurring metadata searches as smart collections, without copying originals.</p>
+<p><strong>Organizer handoff</strong> — Open selected photographs in LPF Organizer when descriptive metadata needs editing.</p>
+</div>
+<div class="installation" id="installation">
+<h2>Installation</h2>
+<ol>
+<li>Download <strong data-lpf-zip="explorer">the latest ZIP file</strong> from GitHub Releases.</li>
+<li>Double-click the ZIP to extract the application.</li>
+<li>Move <strong>LPF Explorer.app</strong> to <strong>Applications</strong>.</li>
+<li>Open LPF Explorer and add an existing photo archive. Metadata Search works immediately.</li>
+</ol>
+<p><strong>Visual Search is optional.</strong> If you choose to use it, Explorer asks permission before downloading the approximately 750 MB SigLIP 2 model from Hugging Face. Allow at least 2 GB of free space. Install it once per Mac, not once per archive. You may also install compatible model files from a local folder.</p>
+<p>Image analysis and Visual Search run <strong>on your Mac</strong>. Your photographs and visual-search descriptions are never uploaded to an AI service. Only the optional model download and a lightweight software update check use the network.</p>
+<p>LPF Explorer works independently. <span data-lpf-handoff="explorer">LPF Organizer is needed only for the handoff feature.</span></p>
+<p><strong>LPF Explorer is signed with an Apple Developer ID certificate and notarized by Apple.</strong> macOS may display its normal downloaded-app confirmation on first launch; no security workaround is needed.</p>
+</div>
+<a class="back" href="index.html">← Back to homepage</a>
+</section>
 </main>
 <footer class="footer">
    Les Petites Fugues · Simple tools for the Mac

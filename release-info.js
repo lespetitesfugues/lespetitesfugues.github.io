@@ -22,8 +22,14 @@
     document.querySelectorAll(`[data-lpf-version="${app}"]`).forEach(el => {
       el.textContent = ` ${info.version}`;
     });
+    // Release assets can have a suffix such as "-macOS". Use the exact
+    // filename when the manifest provides one; keep legacy naming as fallback.
+    const zipName = typeof info.zipFileName === 'string' &&
+        /^[A-Za-z0-9][A-Za-z0-9._-]*\.zip$/.test(info.zipFileName)
+      ? info.zipFileName
+      : `${config.zipPrefix}-${info.version}.zip`;
     document.querySelectorAll(`[data-lpf-zip="${app}"]`).forEach(el => {
-      el.textContent = `${config.zipPrefix}-${info.version}.zip`;
+      el.textContent = zipName;
     });
 
     // Keep each HTML page's working GitHub link as a fallback.
