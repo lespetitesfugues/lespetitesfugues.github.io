@@ -106,7 +106,7 @@
   },
   {
     "title": "A Refreshing Lack of Nonsense.",
-    "description": "No grand promises. Just a useful Mac application.",
+    "description": "No grand promises. Just two useful Mac apps, doing what they were asked.",
     "category": "British humour"
   },
   {
@@ -176,7 +176,7 @@
   },
   {
     "title": "Small Is a Feature.",
-    "description": "Alone, preferably. They're none of Silicon Valley's bloody business.",
+    "description": "Especially when it refuses to bring half of Silicon Valley along for the ride.",
     "category": "Gentle provocation"
   },
   {
@@ -256,7 +256,7 @@
   },
   {
     "title": "Not Everything Needs an AI Button.",
-    "description": "Sometimes a folder is just a folder.",
+    "description": "But finding a photograph by describing it? Fair enough. The AI even stays on your Mac.",
     "category": "Gentle provocation"
   },
   {
@@ -365,8 +365,8 @@
     "category": "Absurdity"
   },
   {
-    "title": "Certified by Absolutely Nobody.",
-    "description": "We have chosen to focus on making the software useful instead.",
+    "title": "Notarised by Apple. Admired by Otters.",
+    "description": "The first is official. The second is an entirely unverified rumour.",
     "category": "Absurdity"
   },
   {
@@ -603,5 +603,125 @@
     "title": "We Don't Track You. We Have Better Things to Do.",
     "description": "Your visit is your business. We're just pleased you dropped by.",
     "category": "Digital independence"
+  },
+  {
+    "title": "Look, Picture Found.",
+    "description": "Describe a scene. Explorer's local AI goes looking, without inviting the cloud round for tea.",
+    "category": "Visual search & local AI"
+  },
+  {
+    "title": "Even the AI Stays Home.",
+    "description": "Visual search runs on your Mac. It has been politely declined a cloud account.",
+    "category": "Visual search & local AI"
+  },
+  {
+    "title": "The Search Has Eyes. Figuratively.",
+    "description": "Type what you remember seeing, not the filename you forgot.",
+    "category": "Visual search & local AI"
+  },
+  {
+    "title": "A Sensible Use for AI. How Awkward.",
+    "description": "Finding a photo by description is useful. Writing an autobiography for your toaster can wait.",
+    "category": "Visual search & local AI"
+  },
+  {
+    "title": "The Only Clouds Are in the Photographs.",
+    "description": "Local AI search means your holiday pictures needn't go sightseeing on a server.",
+    "category": "Visual search & local AI"
+  },
+  {
+    "title": "A Brain with Boundaries.",
+    "description": "The model looks for matching images on your Mac. It doesn't need your life story.",
+    "category": "Visual search & local AI"
+  },
+  {
+    "title": "Keywords Have Taken the Afternoon Off.",
+    "description": "Can't remember the label? Describe the picture and let visual search have a go.",
+    "category": "Visual search & local AI"
+  },
+  {
+    "title": "Local Processing. Fancy That.",
+    "description": "A little visual intelligence on your own Mac. Quite radical, by current standards.",
+    "category": "Visual search & local AI"
+  },
+  {
+    "title": "The Finalists Have Their Own Room.",
+    "description": "MySelects browses your finished exports. Working files can stay happily where they were.",
+    "category": "MySelects"
+  },
+  {
+    "title": "One Photograph. Several Outfits.",
+    "description": "Print, web and other exports belong to the same family. MySelects keeps the introductions brief.",
+    "category": "MySelects"
+  },
+  {
+    "title": "MySelects. Not MyMess.",
+    "description": "Finished pictures in ordinary folders, without a new catalogue demanding custody.",
+    "category": "MySelects"
+  },
+  {
+    "title": "The Good Ones Needn't Queue Twice.",
+    "description": "Several exports of one finished photograph appear together. Very civilised.",
+    "category": "MySelects"
+  },
+  {
+    "title": "MySelects Knows Its Relatives.",
+    "description": "A shared filename prefix groups print and web exports as one photograph. No DNA test required.",
+    "category": "MySelects"
+  },
+  {
+    "title": "Different Formats. Same Photograph.",
+    "description": "MySelects recognises related exports. The TIFF and JPEG need not pretend they're strangers.",
+    "category": "MySelects"
+  },
+  {
+    "title": "The RAW Can Stay in Its Dressing Room.",
+    "description": "MySelects is for finished outputs. The working files keep their own space.",
+    "category": "MySelects"
+  },
+  {
+    "title": "A Little Order After the Applause.",
+    "description": "You decide what to export and where. MySelects helps you find the finished show.",
+    "category": "MySelects"
+  },
+  {
+    "title": "Your RAW Editor Can Keep Its Job.",
+    "description": "Organizer handles metadata; Explorer finds photographs; your favourite editor still makes them sing.",
+    "category": "Working with others"
+  },
+  {
+    "title": "The Apps Are on Speaking Terms.",
+    "description": "Explorer hands photos to Organizer. Standard XMP keeps other tools in the conversation.",
+    "category": "Working with others"
+  },
+  {
+    "title": "Polite to Other Software.",
+    "description": "Ordinary folders and XMP sidecars. No loyalty oath required.",
+    "category": "Working with others"
+  },
+  {
+    "title": "No Ecosystem Wedding Required.",
+    "description": "Use LPF, DxO PhotoLab, Nitro or whatever works. The photographs remain yours.",
+    "category": "Working with others"
+  },
+  {
+    "title": "Metadata with Social Skills.",
+    "description": "Location fields speak standard XMP. Other applications may join the conversation.",
+    "category": "Working with others"
+  },
+  {
+    "title": "A Team Without Team-Building.",
+    "description": "Find in Explorer, describe in Organizer, develop elsewhere. Everyone goes home on time.",
+    "category": "Working with others"
+  },
+  {
+    "title": "No Secret Handshake Required.",
+    "description": "Files and folders in plain sight. Metadata in sidecars. Rather unfashionably compatible.",
+    "category": "Working with others"
+  },
+  {
+    "title": "An Open-Door Policy for Pictures.",
+    "description": "The LPF apps fit around your workflow, instead of asking you to reorganise your life around theirs.",
+    "category": "Working with others"
   }
 ]
